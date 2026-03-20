@@ -1,0 +1,45 @@
+apiVersion: v1
+entries:
+  chatwoot:
+  - apiVersion: v2
+    appVersion: v4.11.1
+    created: "2026-03-20T12:44:50.775840016Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.6.7
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.12.2
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.31.4
+    description: "Open-source customer engagement suite, an alternative to Intercom,
+      Zendesk, Salesforce Service Cloud etc. \U0001F525\U0001F4AC"
+    digest: 2f8cf6acf8da50b74b72bfd99c5b9d700a54b0a1773033472b1b5f84afa7c40d
+    home: https://github.com/chatwoot/charts
+    icon: https://chatwoot-public-assets.s3.amazonaws.com/logo/square.png
+    keywords:
+    - chatwoot
+    - open source
+    - customer support
+    - chat
+    - ruby
+    - rails
+    - crm
+    maintainers:
+    - email: vishnu@chatwoot.com
+      name: vishnu-narayanan
+    - email: sojan@chatwoot.com
+      name: sojan-official
+    name: chatwoot
+    sources:
+    - https://github.com/chatwoot/chatwoot
+    - http://www.chatwoot.com
+    type: application
+    urls:
+    - https://github.com/jwbeech/chatwoot-charts/releases/download/chatwoot-2.1.0/chatwoot-2.1.0.tgz
+    version: 2.1.0
+generated: "2026-03-20T12:44:50.775851206Z"
